@@ -21,8 +21,8 @@ The application will consists in just a simple section so far, here are a simpli
 * Pressing a "SCAN" button the app triggers the phone camera in code scanning mode (using any web rtc based solution like [react-qr-scanner](kybarg/react-qr-scanner))
 * Once the QR Code content is received must be passed to the API
 * The API parse the code and return the response (attendant accepted or attendand rejected)
-* After the scan, if the attendand was accepted, the app will prompt another form to insert further attendand details (phone number so far)
-* When the further details are validated (on frontend side), is passed to the API that will record the attendand at return back the updated list
+* After the scan, if the attendand was accepted, the app will prompt another form to insert attendand's contact details (phone number only so far)
+* When attendant's contact details are validated (on frontend side), are passed to the API that will record the attendand at return back the updated list
 * The app can then fetch the list and update the page.
 * Code scans can be done only for incoming events
 
