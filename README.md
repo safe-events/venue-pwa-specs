@@ -3,7 +3,7 @@
 Specifications for a PWA to let venue owners scan participant tickets / pass and store their contact data.
 
 ## General specs
-* Users of the app lication are venue owners, they will be able to create events and register attendands for an event.
+* Users of the application are venue owners, they will be able to create events and register attendands for an event.
 * Access to the app will be protected by login with credentials, an existing backend application already provides this feature, so a boilerplate is ready and available to use existing auth service.
 * The application must be completeley usable on mobile device and locally installed using PWA technology.
 * A REST Api (with transparent cookie auth system provided by backend) will be available for all the operations on the user's resources
