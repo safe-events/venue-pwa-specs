@@ -1,6 +1,6 @@
 # venue-pwa-specs
 
-Specifications for a PWA to let venue owners scan participant green pass and store their contact 
+Specifications for a PWA to let venue owners scan participant tickets / pass and store their contact data.
 
 Users of the application are venue owners, who autenticates using their credentials against an OAUTH api service.
 The application will consume a REST API for all operations (specs will be available soon).
