@@ -2,8 +2,9 @@
 
 Specifications for a PWA to let venue owners scan participant tickets / pass and store their contact data.
 
-Users of the application are venue owners, who autenticates using their credentials against an OAUTH api service.
-The application will consume a REST API for all operations (specs will be available soon).
+Users of the application are venue owners, who autenticates using their credentials (see [#stack-constraits](Stack Constraits) for more detail on the auth system).
+
+The application will consume a REST API for all operations.
 
 The application must be completeley usable on mobile device and locally installed using PWA technology.
 
