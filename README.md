@@ -6,6 +6,7 @@ Specifications for a PWA to let venue owners scan participant tickets / pass and
 * Users of the app lication are venue owners, they will be able to create events and register attendands for an event.
 * Access to the app will be protected by login with credentials, an existing backend application already provides this feature, so a boilerplate is ready and available to use existing auth service.
 * The application must be completeley usable on mobile device and locally installed using PWA technology.
+* A REST Api (with transparent cookie auth system provided by backend) will be available for all the operations on the user's resources
 
 So the application will consists in just a simple section, here are a simplified workflow for the main feature.
 
@@ -29,9 +30,10 @@ So the application will consists in just a simple section, here are a simplified
 
 Application should be developed following this directives
 
-* Must use react
+* Must use Gitlab as VCS
+* Must use react (since the boilerplate is already wrote using react, any other JS framework can be used but the auth system must be re-implemented)
 * Must be a PWA
 * Must be written using TDD or contain 100% coverage tests
-* Must use tailwindcss for the ui design
+* Must use tailwindcss for the ui design (to match the main application design)
 * The API authentication system is based on a cookie, since the API domain is the same of the PWA, a boilerplate template will be available to start with authentication already implemented in.
-* API specs will be available using OpenApi .yml standard file.
+* API specs and interactive documentation will be available for the frontend dev team in a separate private repository, using OpenApi standard.
