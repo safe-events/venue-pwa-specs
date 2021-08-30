@@ -1,14 +1,13 @@
-# venue-pwa-specs
+# Safe Events - Venue's SPA specifications
 
 Specifications for a PWA to let venue owners scan participant tickets / pass and store their contact data.
 
-Users of the application are venue owners, who autenticates using their credentials (see Stack Constraits for more detail on the auth system).
+## General specs
+* Users of the app lication are venue owners, they will be able to create events and register attendands for an event.
+* Access to the app will be protected by login with credentials, an existing backend application already provides this feature, so a boilerplate is ready and available to use existing auth service.
+* The application must be completeley usable on mobile device and locally installed using PWA technology.
 
-The application will consume a REST API for all operations.
-
-The application must be completeley usable on mobile device and locally installed using PWA technology.
-
-The application will consists in just a simple section so far, here are a simplified workflow for the main feature.
+So the application will consists in just a simple section, here are a simplified workflow for the main feature.
 
 ## Events management
 * Adding new events (form with 2 fields: name, starts_at)
