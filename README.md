@@ -1,11 +1,11 @@
 # Safe Events - Venue's SPA specifications
 
-Specifications for a PWA to let venue owners scan participant tickets / pass and store their contact data.
+Specifications for a Single Page Application to let venue owners scan participant tickets / pass and store their contact data.
 
 ## General specs
 * Users of the application are venue owners, they will be able to create events and register attendands for an event.
 * Access to the app will be protected by login with credentials, an existing backend application already provides this feature, so a boilerplate is ready and available to use existing auth service.
-* The application must be completeley usable on mobile device and locally installed using PWA technology.
+* The application must be completeley usable on mobile device and locally installed using PWA technology or native development.
 * A REST Api (with transparent cookie auth system provided by backend) will be available for all the operations on the user's resources
 
 So the application will consists in just a simple section, here are a simplified workflow for the main feature.
@@ -37,7 +37,7 @@ Application should be developed following this directives
 
 * Code MUST be pushed to a private Gitlab repository
 * The app SHOULD be built using React (since the boilerplate is already wrote using react, any other JS framework can be used but the auth system must be re-implemented)
-* The application should be installed on 
+* The application MUST be installable and usable on smart phones (using PWA or native development or React Native / Ionic)
 * Must be written using TDD or contain 100% coverage tests
 * Must use tailwindcss for the ui design (to match the main application design)
 * Backend app already provides a cookie based authentication system, a boilerplate template will be available to start with authentication already implemented in.
