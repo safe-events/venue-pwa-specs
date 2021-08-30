@@ -35,5 +35,5 @@ Application should be developed following this directives
 * Must be a PWA
 * Must be written using TDD or contain 100% coverage tests
 * Must use tailwindcss for the ui design (to match the main application design)
-* The API authentication system is based on a cookie, since the API domain is the same of the PWA, a boilerplate template will be available to start with authentication already implemented in.
+* Backend app already provides a cookie based authentication system, a boilerplate template will be available to start with authentication already implemented in.
 * API specs and interactive documentation will be available for the frontend dev team in a separate private repository, using OpenApi standard.
