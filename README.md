@@ -32,7 +32,7 @@ Application should be developed following this directives
 
 * Must use react
 * Must be a PWA
-* Must be written using TDD or contains 100% coverage tests
+* Must be written using TDD or contain 100% coverage tests
 * Must use tailwindcss for the ui design
 * The API authentication system is based on a cookie, since the API domain is the same of the PWA, a boilerplate template will be available to start with authentication already implemented in.
 * API specs will be available using OpenApi .yml standard file.
