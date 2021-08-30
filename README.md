@@ -10,7 +10,7 @@ Specifications for a PWA to let venue owners scan participant tickets / pass and
 
 So the application will consists in just a simple section, here are a simplified workflow for the main feature.
 
-## Events management
+### Events management
 * Adding new events (form with 2 fields: name, starts_at)
 * Listing existing events (in 3 separate groups for past, incoming and future events)
 * Managing existing events (updating event's data or deleting an event)
@@ -26,13 +26,18 @@ So the application will consists in just a simple section, here are a simplified
 * The app can then fetch the list and update the page.
 * Code scans can be done only for incoming events
 
-## Stack constraits
+## UI Specs
+* Design must be mobile first
+* UI elements must be designed using TailwindCSS
+* Design should match logo colors
+
+## Dev specs
 
 Application should be developed following this directives
 
-* Must use Gitlab as VCS
-* Must use react (since the boilerplate is already wrote using react, any other JS framework can be used but the auth system must be re-implemented)
-* Must be a PWA
+* Code MUST be pushed to a private Gitlab repository
+* The app SHOULD be built using React (since the boilerplate is already wrote using react, any other JS framework can be used but the auth system must be re-implemented)
+* The application should be installed on 
 * Must be written using TDD or contain 100% coverage tests
 * Must use tailwindcss for the ui design (to match the main application design)
 * Backend app already provides a cookie based authentication system, a boilerplate template will be available to start with authentication already implemented in.
