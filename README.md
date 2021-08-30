@@ -15,7 +15,7 @@ So the application will consists in just a simple section, here are a simplified
 * Listing existing events (in 3 separate groups for past, incoming and future events)
 * Managing existing events (updating event's data or deleting an event)
 * Viewing event's attendand list (with a button to print the list if authorized)
-* Scanning attendants for an event
+* Scanning attendant's ticket/pass for an event
 ### Attendands ticket/pass qr code scanner for an event
 * The event page will contain the list of current attendands (fetched from API)
 * Pressing a "SCAN" button the app triggers the phone camera in code scanning mode (using any web rtc based solution like [react-qr-scanner](kybarg/react-qr-scanner))
