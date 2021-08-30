@@ -8,14 +8,16 @@ The application will consume a REST API for all operations.
 
 The application must be completeley usable on mobile device and locally installed using PWA technology.
 
-The application will consists in just a simple page so far, here are a simplified workflow for the main feature.
+The application will consists in just a simple section so far, here are a simplified workflow for the main feature.
 
 ## Events management
 * Adding new events (form with 2 fields: name, starts_at)
+* Listing existing events (in 3 separate groups for past, incoming and future events)
 * Managing existing events (updating event's data or deleting an event)
-* Start scanning attendants for the event
-### Attendands ticket/pass qr code scanner
-* The page will contain the list of current attendands (fetched from API)
+* Viewing event's attendand list (with a button to print the list if authorized)
+* Scanning attendants for an event
+### Attendands ticket/pass qr code scanner for an event
+* The event page will contain the list of current attendands (fetched from API)
 * Pressing a "SCAN" button the app triggers the phone camera in code scanning mode (using any web rtc based solution like [react-qr-scanner](kybarg/react-qr-scanner))
 * Once the QR Code content is received must be passed to the API
 * The API parse the code and return the response (attendant accepted or attendand rejected)
