@@ -24,6 +24,7 @@ The application will consists in just a simple section so far, here are a simpli
 * After the scan, if the attendand was accepted, the app will prompt another form to insert further attendand details (phone number so far)
 * When the further details are validated (on frontend side), is passed to the API that will record the attendand at return back the updated list
 * The app can then fetch the list and update the page.
+* Code scans can be done only for incoming events
 
 ## Stack constraits
 
